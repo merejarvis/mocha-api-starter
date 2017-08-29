@@ -2,7 +2,8 @@ const mongoose = require('mongoose')
 
 const TacoSchema = new mongoose.Schema({
   name: String,
-  amount: String
+  amount: String,
+  calory: String
 })
 
 const Taco = mongoose.model('Taco', TacoSchema)
